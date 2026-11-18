@@ -61,8 +61,15 @@ aside{
     grid-area: as;
     margin-left: 10px;
     margin-top: 10px;
-    border: solid grey;
+    border: solid rgb(194, 191, 191);
     border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 150px;
+}
+
+.cards{
+   border: solid rgb(194, 191, 191);
+   border-radius: 10px;
 }
 
 footer{
@@ -70,18 +77,15 @@ footer{
     text-align: center;
 }
 
-.cards{
-    padding: 10px
-}
-
 .card{
-    border: solid gray;
+    border: solid rgb(194, 191, 191);
     border-radius: 10px;
     padding: 10px;
 }
 .card h2{
     color: rgb(44, 87, 44);
     font-size: 30px;
+    margin-top: 12px;
 }
 
 .card p{
@@ -89,7 +93,7 @@ footer{
 }
 
 .card img{
-    border: solid grey;
+    border: solid rgb(194, 191, 191);
     border-radius: 10px;
 }
 
